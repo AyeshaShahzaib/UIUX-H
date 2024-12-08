@@ -30,7 +30,7 @@ return(
     {/* Left Section: Image Collage */}
     <div className="grid grid-cols-3 gap-4">
       <img src="taco.png" alt="Tacos" className="rounded-lg object-cover h-40 w-full col-span-2" />
-      <img src="burger.png" alt="Burger" className="rounded-lg object-cover h-40 w-full" />
+      <img src="Burger.png" alt="Burger" className="rounded-lg object-cover h-40 w-full" />
       <img src="fried-chicken.png" alt="Fried Chicken" className="rounded-lg object-cover h-40 w-full" />
       <img src="meal.png" alt="Meal" className="rounded-lg object-cover h-40 w-full" />
       <img src="pasta.png" alt="Pasta" className="rounded-lg object-cover h-40 w-full" />
