@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function CartItems(){
     return(
        <div>
@@ -94,9 +95,9 @@ export default function CartItems(){
         </tr>
       </tbody>
     </table>
-    <button className="bg-[#FF9F0D] text-white px-4 py-2 w-full rounded ">
+   <Link href="CheckOut"> <button className="bg-[#FF9F0D] text-white px-4 py-2 w-full rounded ">
       Proceed to Checkout →
-    </button>
+    </button></Link>
   </div>
 </div>
        </div>
