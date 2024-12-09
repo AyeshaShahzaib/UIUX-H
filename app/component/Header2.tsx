@@ -16,7 +16,7 @@ export default function Header2(){
 </div>
 <div className="flex items-center">
 <div className=""><img src="MagnifyingGlass.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div>
-<div className=""><img src="User.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div>
+<Link href="SignIn"><div className=""><img src="User.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div></Link>
 <Link href="ShoppingCart"><div className=""><img src="Tote.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div></Link>
 
 </div>
