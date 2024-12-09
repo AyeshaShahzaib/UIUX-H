@@ -63,7 +63,7 @@ export default function Signin() {
           </div>
 
           {/* Sign-Up Button */}
-          <button className="w-full bg-[#FF9F0D] text-white py-2 rounded hover:bg-orange-600">
+          <button className="w-full bg-[#FF9F0D] text-white py-2 rounded">
             Sign Up
           </button>
           <a
