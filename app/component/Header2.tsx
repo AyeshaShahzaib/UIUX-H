@@ -11,13 +11,13 @@ export default function Header2(){
 <h1>Blog</h1>
 <h1>Pages</h1>
 <h1>About</h1>
-<h1>Shop</h1>
+<Link href="Shop"><h1>Shop</h1></Link>
 <h1>Contact</h1>
 </div>
 <div className="flex items-center">
 <div className=""><img src="MagnifyingGlass.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div>
 <div className=""><img src="User.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div>
-<div className=""><img src="Tote.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div>
+<Link href="ShoppingCart"><div className=""><img src="Tote.png" alt="Search" className="ml-2 w-[24px] h-[24px]" /></div></Link>
 
 </div>
 </div>
