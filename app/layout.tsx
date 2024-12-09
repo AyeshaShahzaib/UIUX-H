@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import HeroSection from "./component/Header";
+import Header2 from "./component/Header2";
 import Footer from "./component/Footer";
 
 const geistSans = localFont({
@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <HeroSection/>
+        <Header2></Header2>
         {children}
        < Footer/>
       </body>
