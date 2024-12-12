@@ -191,7 +191,7 @@ export default function BlogDetails() {
               bibendum commodo eros, non scelerisque velit fermentum ac.
             </p>
             <img
-              src="https://via.placeholder.com/800x400"
+              src="/blog2.png"
               alt="Dish"
               className="w-full rounded mb-6"
             />
@@ -219,7 +219,7 @@ export default function BlogDetails() {
             {/* Author Info */}
             <div className="bg-white p-6 shadow-lg rounded mb-6">
               <img
-                src="https://via.placeholder.com/100"
+                src="/Blogger.png"
                 alt="Author"
                 className="rounded-full w-16 h-16 mx-auto mb-4"
               />
@@ -227,15 +227,19 @@ export default function BlogDetails() {
               <p className="text-center text-gray-500 text-sm">
                 Blogger / Photographer
               </p>
-              <div className="flex justify-center space-x-4 mt-4">
+              <div className="w-full flex justify-center py-2"><h1 className="text-[#FF9F0D]">★★★★★</h1></div>
+              <div className="flex justify-center space-x-4 mt-2">
                 <a href="#" className="text-orange-500 hover:underline">
-                  Facebook
+                  <img src="Facebook.png" alt="" />
                 </a>
                 <a href="#" className="text-orange-500 hover:underline">
-                  Twitter
+                <img src="Twitter.png" alt="" />
                 </a>
                 <a href="#" className="text-orange-500 hover:underline">
-                  Instagram
+                <img src="Instagram.png" alt="" />
+                </a>
+                <a href="#" className="text-orange-500 hover:underline">
+                <img src="Pinterest.png" alt="" />
                 </a>
               </div>
             </div>
